@@ -1,0 +1,63 @@
+body {
+  font: 12px sans-serif;
+}
+#legend {
+	font: 12px sans-serif;
+}
+
+.tick > line {
+	fill: none;
+	stroke: black;
+}
+.tick > text {
+	fill: black;
+}
+
+.LowCalorie {
+	fill: #FFC0CB;
+	stroke: black;
+	opacity: .6;
+}
+
+.MedCalorie {
+	fill: #DC143C;
+	stroke: black;
+	opacity: .6;
+}
+
+.HighCalorie {
+	fill: #8B0000;
+	stroke: black;
+	opacity: .6;
+}
+
+path.domain {
+	fill: none;
+	stroke-width: 2px;
+	stroke: black;
+}
+
+#wrapper {
+	clear:both;
+}
+#chart1 {
+  float:left;
+}
+#chart2{
+	float:left;
+}
+#chart3 {
+	float:left;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+select {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+dropdownstatbox1 {
+  font-size: 12px;
+  font-family: sans-serif;
+}

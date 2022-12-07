@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/> 
+		<title>LGBT Rights By Country</title>
+		<link href="style.css" type="text/css" rel="stylesheet" />
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+		<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>	 
+   	</head>
+   	<body>
+		<h2>
+			<font color="#1668BD">LGBT Rights By Country and Question Based on Findings from Survey</font>
+		</h2>
+   		<svg id="my_dataviz" width="1200" height="420"></svg>
+		<div>
+			<label for="categorySelect">Question Being Compared: </label>
+			<select class="select" id="questionSelect" float="right" onchange="onQuestionChanged()">
+				<option value="All">Average of All Questions</option>
+				<option selected value="Is there a law forbidding sexual orientation discrimination for job applicants?">Is there a law forbidding sexual orientation discrimination for job applicants?</option>
+				<option value="Is there a law forbidding gender identity discrimination for job applicants?">Is there a law forbidding gender identity discrimination for job applicants?</option>
+				<option value="Are there organisations that support lesbians who have encountered discrimination?">Are there organisations that support lesbians who have encountered discrimination?</option>
+				<option value="Are there organisations that support gay individuals who have encountered discrimination?">Are there organisations that support gay individuals who have encountered discrimination?</option>
+				<option value="Are there organisations that support bisexual individuals who have encountered discrimination?">Are there organisations that support bisexual individuals who have encountered discrimination?</option>
+				<option value="Are there organisations that support transgender individuals who have encountered discrimination?">Are there organisations that support transgender individuals who have encountered discrimination?</option>
+				<option value="Are there programs/awareness campaigns addressing gay, lesbian and bisexual discrimination?">Are there programs/awareness campaigns addressing gay, lesbian and bisexual discrimination?</option>
+				<option value="Are there programs/awareness campaigns addressing transgender discrimination?">Are there programs/awareness campaigns addressing transgender discrimination?</option>
+				<option value="Are there programs/awareness campaigns addressing gender discrimination?">Are there programs/awareness campaigns addressing gender discrimination?</option>
+				<option value="Can same-sex couples marry or have registered partnerships?">Can same-sex couples marry or have registered partnerships?</option>
+			</select>
+        </div>
+		<script src="world_copy.js"></script>
+	</body>
+</html>
+
