@@ -1,5 +1,4 @@
-# datavisfinalproject
-CS 4460 Data Visualization Final Project
+# CS 4460 Data Visualization Final Project
 
 This project leverages D3.js to create a visualization of LGBT Rights Data across the European Continent. 
 
